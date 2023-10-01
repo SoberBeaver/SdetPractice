@@ -1,0 +1,26 @@
+I. Создание клиента (Customer)
+    1. Открыть в браузере https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
+    2. Нажать в меню на кнопку Add Customer
+    3. Ввести в поле First Name имя Tom
+    4. Ввести в поле Last Name фамилию Riddle
+    5. Ввести в поле Post Code код E66666
+    6. Нажать Add customer
+    7. Проверить отображаение алерта с текстом Customer added successfully with customer id :6+
+    8. Закрыть алерт
+
+II. Сортировка клиентов по имени (First Name)
+    1. Открыть в браузере https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
+    2. Нажать в меню на кнопку Customers
+    3. Нажать на поле First Name в загловке таблицы с пользователями
+    4. Проверить, что имя пользователя в первой строке Ron
+    5. Проверить, что имя пользователя в последней строке Albus
+    6. Нажать на поле First Name в загловке таблицы с пользователями
+    7. Проверить, что имя пользователя в первой строке Albus
+    8. Проверить, что имя пользователя в последней строке Ron
+
+III. Поиск клиента
+    1. Открыть в браузере https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
+    2. Нажать в меню на кнопку Customers
+    3. Нажать на поле поиске Harry
+    4. Проверить, что отображается один пользователь
+    5. Проверить, что имя пользователя Harry
