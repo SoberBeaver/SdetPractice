@@ -24,7 +24,7 @@ public class BaseTest {
     @Step("Открыть браузер")
     static void setUp() {
         driver = new ChromeDriver();
-        Dimension dimension = new Dimension(1920 *2, 1080*2);
+        Dimension dimension = new Dimension(1920, 1080);
         driver.manage().window().setSize(dimension);
 
         int timeout = Integer.parseInt(PropertyProvider.getInstance().getProperties("timeout"));
