@@ -1,27 +1,27 @@
 {
-  "uid" : "55a3e09b7b83476c",
-  "name" : "createCustomer()",
-  "fullName" : "tests.AddCustomerTest.createCustomer",
-  "historyId" : "e74a24c5271e7420fec39a73dd7b3a6c",
+  "uid" : "7fb0136bdfeed4f4",
+  "name" : "sortCustomersByFirstName()",
+  "fullName" : "tests.CustomersTest.sortCustomersByFirstName",
+  "historyId" : "52ee2b3eafa5939c7f113edad9518f1a",
   "time" : {
-    "start" : 1696445403226,
-    "stop" : 1696445406415,
-    "duration" : 3189
+    "start" : 1696445804226,
+    "stop" : 1696445804907,
+    "duration" : 681
   },
-  "description" : "Создание клиента (Customer)",
-  "descriptionHtml" : "<p>Создание клиента (Customer)</p>\n",
+  "description" : "Сортировка клиентов по имени (First Name)",
+  "descriptionHtml" : "<p>Сортировка клиентов по имени (First Name)</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Создание клиента (Customer)",
+    "description" : "Сортировка клиентов по имени (First Name)",
     "status" : "passed",
     "steps" : [ {
       "name" : "Перейти на сайт",
       "time" : {
-        "start" : 1696445403241,
-        "stop" : 1696445404658,
-        "duration" : 1417
+        "start" : 1696445804234,
+        "stop" : 1696445804252,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,11 +32,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Открыть страницу добавления пользователя",
+      "name" : "Открыть просмотра пользователей",
       "time" : {
-        "start" : 1696445404660,
-        "stop" : 1696445405410,
-        "duration" : 750
+        "start" : 1696445804253,
+        "stop" : 1696445804560,
+        "duration" : 307
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,65 +47,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Ввести имя пользователя: Tom",
+      "name" : "Отсортировать таблицу по имени",
       "time" : {
-        "start" : 1696445405412,
-        "stop" : 1696445405751,
-        "duration" : 339
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "name",
-        "value" : "Tom"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "Ввести фамилию пользователя: Riddle",
-      "time" : {
-        "start" : 1696445405753,
-        "stop" : 1696445405878,
-        "duration" : 125
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "lastName",
-        "value" : "Riddle"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "Ввести код: E66666",
-      "time" : {
-        "start" : 1696445405878,
-        "stop" : 1696445406060,
-        "duration" : 182
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "code",
-        "value" : "E66666"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "Нажать Add Customer",
-      "time" : {
-        "start" : 1696445406061,
-        "stop" : 1696445406209,
-        "duration" : 148
+        "start" : 1696445804560,
+        "stop" : 1696445804728,
+        "duration" : 168
       },
       "status" : "passed",
       "steps" : [ ],
@@ -116,10 +62,40 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Получить текст алерта",
+      "name" : "Получить имя первого пользователя",
       "time" : {
-        "start" : 1696445406209,
-        "stop" : 1696445406252,
+        "start" : 1696445804728,
+        "stop" : 1696445804756,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получить имя последнего пользователя",
+      "time" : {
+        "start" : 1696445804757,
+        "stop" : 1696445804787,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Отсортировать таблицу по имени",
+      "time" : {
+        "start" : 1696445804787,
+        "stop" : 1696445804830,
         "duration" : 43
       },
       "status" : "passed",
@@ -131,11 +107,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Закрыть алерт",
+      "name" : "Получить имя первого пользователя",
       "time" : {
-        "start" : 1696445406254,
-        "stop" : 1696445406281,
-        "duration" : 27
+        "start" : 1696445804830,
+        "stop" : 1696445804858,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получить имя последнего пользователя",
+      "time" : {
+        "start" : 1696445804858,
+        "stop" : 1696445804884,
+        "duration" : 26
       },
       "status" : "passed",
       "steps" : [ ],
@@ -148,9 +139,9 @@
     }, {
       "name" : "Очистить кукис и хранилище",
       "time" : {
-        "start" : 1696445406340,
-        "stop" : 1696445406393,
-        "duration" : 53
+        "start" : 1696445804885,
+        "stop" : 1696445804906,
+        "duration" : 21
       },
       "status" : "passed",
       "steps" : [ ],
@@ -174,13 +165,13 @@
     "value" : "UI тесты XYZ Bank"
   }, {
     "name" : "feature",
-    "value" : "Создание клиента (Customer)"
+    "value" : "Сортировка клиентов по имени (First Name)"
   }, {
     "name" : "host",
-    "value" : "fv-az627-318"
+    "value" : "fv-az244-383"
   }, {
     "name" : "thread",
-    "value" : "1919@fv-az627-318.main(1)"
+    "value" : "2128@fv-az244-383.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -189,16 +180,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "tests.AddCustomerTest"
+    "value" : "tests.CustomersTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.AddCustomerTest"
+    "value" : "tests.CustomersTest"
   }, {
     "name" : "testMethod",
-    "value" : "createCustomer"
+    "value" : "sortCustomersByFirstName"
   }, {
     "name" : "suite",
-    "value" : "tests.AddCustomerTest"
+    "value" : "tests.CustomersTest"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -213,6 +204,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "55a3e09b7b83476c.json",
+  "source" : "7fb0136bdfeed4f4.json",
   "parameterValues" : [ ]
 }

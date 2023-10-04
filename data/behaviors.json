@@ -4,48 +4,48 @@
   "children" : [ {
     "name" : "UI тесты XYZ Bank",
     "children" : [ {
-      "name" : "Создание клиента (Customer)",
-      "children" : [ {
-        "name" : "createCustomer()",
-        "uid" : "55a3e09b7b83476c",
-        "parentUid" : "a83dbd25df112d4f95af74a3db231759",
-        "status" : "passed",
-        "time" : {
-          "start" : 1696445403226,
-          "stop" : 1696445406415,
-          "duration" : 3189
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a83dbd25df112d4f95af74a3db231759"
-    }, {
       "name" : "Поиск клиента",
       "children" : [ {
         "name" : "searchCustomer()",
-        "uid" : "ecf3b7321b283100",
+        "uid" : "d401eec1683938ce",
         "parentUid" : "3bb530c99ab44fe92ac20414745fb431",
         "status" : "passed",
         "time" : {
-          "start" : 1696445403378,
-          "stop" : 1696445406144,
-          "duration" : 2766
+          "start" : 1696445800993,
+          "stop" : 1696445803904,
+          "duration" : 2911
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "3bb530c99ab44fe92ac20414745fb431"
     }, {
+      "name" : "Создание клиента (Customer)",
+      "children" : [ {
+        "name" : "createCustomer()",
+        "uid" : "aac0ba7d1d30c469",
+        "parentUid" : "a83dbd25df112d4f95af74a3db231759",
+        "status" : "passed",
+        "time" : {
+          "start" : 1696445801007,
+          "stop" : 1696445804159,
+          "duration" : 3152
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a83dbd25df112d4f95af74a3db231759"
+    }, {
       "name" : "Сортировка клиентов по имени (First Name)",
       "children" : [ {
         "name" : "sortCustomersByFirstName()",
-        "uid" : "83f28838270a54d3",
+        "uid" : "7fb0136bdfeed4f4",
         "parentUid" : "b41e7a7d3667dc05888a684a908a5fa7",
         "status" : "passed",
         "time" : {
-          "start" : 1696445406436,
-          "stop" : 1696445406980,
-          "duration" : 544
+          "start" : 1696445804226,
+          "stop" : 1696445804907,
+          "duration" : 681
         },
         "flaky" : false,
         "parameters" : [ ]

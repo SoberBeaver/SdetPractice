@@ -1,12 +1,12 @@
 {
-  "uid" : "ecf3b7321b283100",
+  "uid" : "d401eec1683938ce",
   "name" : "searchCustomer()",
   "fullName" : "tests.CustomersTest.searchCustomer",
   "historyId" : "17a3e93ba31acf150e19c65425e91eba",
   "time" : {
-    "start" : 1696445403378,
-    "stop" : 1696445406144,
-    "duration" : 2766
+    "start" : 1696445800993,
+    "stop" : 1696445803904,
+    "duration" : 2911
   },
   "description" : "Поиск клиента",
   "descriptionHtml" : "<p>Поиск клиента</p>\n",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Перейти на сайт",
       "time" : {
-        "start" : 1696445403385,
-        "stop" : 1696445404658,
-        "duration" : 1273
+        "start" : 1696445801016,
+        "stop" : 1696445802627,
+        "duration" : 1611
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,9 +34,9 @@
     }, {
       "name" : "Открыть просмотра пользователей",
       "time" : {
-        "start" : 1696445404666,
-        "stop" : 1696445405402,
-        "duration" : 736
+        "start" : 1696445802630,
+        "stop" : 1696445803355,
+        "duration" : 725
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,9 +49,9 @@
     }, {
       "name" : "Ввести в поиск строку: Harry",
       "time" : {
-        "start" : 1696445405405,
-        "stop" : 1696445405761,
-        "duration" : 356
+        "start" : 1696445803363,
+        "stop" : 1696445803729,
+        "duration" : 366
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +67,9 @@
     }, {
       "name" : "Получить количество пользователей в таблице",
       "time" : {
-        "start" : 1696445405764,
-        "stop" : 1696445405809,
-        "duration" : 45
+        "start" : 1696445803729,
+        "stop" : 1696445803764,
+        "duration" : 35
       },
       "status" : "passed",
       "steps" : [ ],
@@ -82,9 +82,9 @@
     }, {
       "name" : "Получить имя первого пользователя",
       "time" : {
-        "start" : 1696445405831,
-        "stop" : 1696445405918,
-        "duration" : 87
+        "start" : 1696445803771,
+        "stop" : 1696445803836,
+        "duration" : 65
       },
       "status" : "passed",
       "steps" : [ ],
@@ -97,9 +97,9 @@
     }, {
       "name" : "Очистить кукис и хранилище",
       "time" : {
-        "start" : 1696445405926,
-        "stop" : 1696445406120,
-        "duration" : 194
+        "start" : 1696445803840,
+        "stop" : 1696445803879,
+        "duration" : 39
       },
       "status" : "passed",
       "steps" : [ ],
@@ -126,10 +126,10 @@
     "value" : "Поиск клиента"
   }, {
     "name" : "host",
-    "value" : "fv-az627-318"
+    "value" : "fv-az244-383"
   }, {
     "name" : "thread",
-    "value" : "1921@fv-az627-318.main(1)"
+    "value" : "2128@fv-az244-383.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -162,6 +162,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ecf3b7321b283100.json",
+  "source" : "d401eec1683938ce.json",
   "parameterValues" : [ ]
 }

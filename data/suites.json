@@ -2,48 +2,48 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "tests.AddCustomerTest",
-    "children" : [ {
-      "name" : "createCustomer()",
-      "uid" : "55a3e09b7b83476c",
-      "parentUid" : "8c8425b40a6249fd612b20a64da8d660",
-      "status" : "passed",
-      "time" : {
-        "start" : 1696445403226,
-        "stop" : 1696445406415,
-        "duration" : 3189
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "8c8425b40a6249fd612b20a64da8d660"
-  }, {
     "name" : "tests.CustomersTest",
     "children" : [ {
       "name" : "searchCustomer()",
-      "uid" : "ecf3b7321b283100",
+      "uid" : "d401eec1683938ce",
       "parentUid" : "dd19e600a2ea60b426ebf94cac7d7b1f",
       "status" : "passed",
       "time" : {
-        "start" : 1696445403378,
-        "stop" : 1696445406144,
-        "duration" : 2766
+        "start" : 1696445800993,
+        "stop" : 1696445803904,
+        "duration" : 2911
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "sortCustomersByFirstName()",
-      "uid" : "83f28838270a54d3",
+      "uid" : "7fb0136bdfeed4f4",
       "parentUid" : "dd19e600a2ea60b426ebf94cac7d7b1f",
       "status" : "passed",
       "time" : {
-        "start" : 1696445406436,
-        "stop" : 1696445406980,
-        "duration" : 544
+        "start" : 1696445804226,
+        "stop" : 1696445804907,
+        "duration" : 681
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
     "uid" : "dd19e600a2ea60b426ebf94cac7d7b1f"
+  }, {
+    "name" : "tests.AddCustomerTest",
+    "children" : [ {
+      "name" : "createCustomer()",
+      "uid" : "aac0ba7d1d30c469",
+      "parentUid" : "8c8425b40a6249fd612b20a64da8d660",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696445801007,
+        "stop" : 1696445804159,
+        "duration" : 3152
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8c8425b40a6249fd612b20a64da8d660"
   } ]
 }
