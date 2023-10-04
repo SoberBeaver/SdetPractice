@@ -1,0 +1,218 @@
+{
+  "uid" : "55a3e09b7b83476c",
+  "name" : "createCustomer()",
+  "fullName" : "tests.AddCustomerTest.createCustomer",
+  "historyId" : "e74a24c5271e7420fec39a73dd7b3a6c",
+  "time" : {
+    "start" : 1696445403226,
+    "stop" : 1696445406415,
+    "duration" : 3189
+  },
+  "description" : "Создание клиента (Customer)",
+  "descriptionHtml" : "<p>Создание клиента (Customer)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Создание клиента (Customer)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Перейти на сайт",
+      "time" : {
+        "start" : 1696445403241,
+        "stop" : 1696445404658,
+        "duration" : 1417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть страницу добавления пользователя",
+      "time" : {
+        "start" : 1696445404660,
+        "stop" : 1696445405410,
+        "duration" : 750
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Ввести имя пользователя: Tom",
+      "time" : {
+        "start" : 1696445405412,
+        "stop" : 1696445405751,
+        "duration" : 339
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Tom"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести фамилию пользователя: Riddle",
+      "time" : {
+        "start" : 1696445405753,
+        "stop" : 1696445405878,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "lastName",
+        "value" : "Riddle"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести код: E66666",
+      "time" : {
+        "start" : 1696445405878,
+        "stop" : 1696445406060,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "code",
+        "value" : "E66666"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать Add Customer",
+      "time" : {
+        "start" : 1696445406061,
+        "stop" : 1696445406209,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получить текст алерта",
+      "time" : {
+        "start" : 1696445406209,
+        "stop" : 1696445406252,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Закрыть алерт",
+      "time" : {
+        "start" : 1696445406254,
+        "stop" : 1696445406281,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Очистить кукис и хранилище",
+      "time" : {
+        "start" : 1696445406340,
+        "stop" : 1696445406393,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "UI тесты XYZ Bank"
+  }, {
+    "name" : "feature",
+    "value" : "Создание клиента (Customer)"
+  }, {
+    "name" : "host",
+    "value" : "fv-az627-318"
+  }, {
+    "name" : "thread",
+    "value" : "1919@fv-az627-318.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.AddCustomerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AddCustomerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createCustomer"
+  }, {
+    "name" : "suite",
+    "value" : "tests.AddCustomerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55a3e09b7b83476c.json",
+  "parameterValues" : [ ]
+}

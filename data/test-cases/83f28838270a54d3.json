@@ -1,0 +1,209 @@
+{
+  "uid" : "83f28838270a54d3",
+  "name" : "sortCustomersByFirstName()",
+  "fullName" : "tests.CustomersTest.sortCustomersByFirstName",
+  "historyId" : "52ee2b3eafa5939c7f113edad9518f1a",
+  "time" : {
+    "start" : 1696445406436,
+    "stop" : 1696445406980,
+    "duration" : 544
+  },
+  "description" : "Сортировка клиентов по имени (First Name)",
+  "descriptionHtml" : "<p>Сортировка клиентов по имени (First Name)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Сортировка клиентов по имени (First Name)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Перейти на сайт",
+      "time" : {
+        "start" : 1696445406439,
+        "stop" : 1696445406461,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть просмотра пользователей",
+      "time" : {
+        "start" : 1696445406461,
+        "stop" : 1696445406533,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Отсортировать таблицу по имени",
+      "time" : {
+        "start" : 1696445406533,
+        "stop" : 1696445406610,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получить имя первого пользователя",
+      "time" : {
+        "start" : 1696445406610,
+        "stop" : 1696445406652,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получить имя последнего пользователя",
+      "time" : {
+        "start" : 1696445406652,
+        "stop" : 1696445406696,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Отсортировать таблицу по имени",
+      "time" : {
+        "start" : 1696445406696,
+        "stop" : 1696445406803,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получить имя первого пользователя",
+      "time" : {
+        "start" : 1696445406803,
+        "stop" : 1696445406917,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получить имя последнего пользователя",
+      "time" : {
+        "start" : 1696445406917,
+        "stop" : 1696445406953,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Очистить кукис и хранилище",
+      "time" : {
+        "start" : 1696445406953,
+        "stop" : 1696445406979,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "UI тесты XYZ Bank"
+  }, {
+    "name" : "feature",
+    "value" : "Сортировка клиентов по имени (First Name)"
+  }, {
+    "name" : "host",
+    "value" : "fv-az627-318"
+  }, {
+    "name" : "thread",
+    "value" : "1921@fv-az627-318.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.CustomersTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.CustomersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sortCustomersByFirstName"
+  }, {
+    "name" : "suite",
+    "value" : "tests.CustomersTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83f28838270a54d3.json",
+  "parameterValues" : [ ]
+}

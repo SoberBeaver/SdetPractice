@@ -1,4 +1,4 @@
 "Status","Name","Duration in ms","Description"
-"passed","tests.CustomersTest.searchCustomer","3320","Поиск клиента"
-"passed","tests.CustomersTest.sortCustomersByFirstName","971","Сортировка клиентов по имени (First Name)"
-"passed","tests.AddCustomerTest.createCustomer","3781","Создание клиента (Customer)"
+"passed","tests.AddCustomerTest.createCustomer","3189","Создание клиента (Customer)"
+"passed","tests.CustomersTest.searchCustomer","2766","Поиск клиента"
+"passed","tests.CustomersTest.sortCustomersByFirstName","544","Сортировка клиентов по имени (First Name)"
