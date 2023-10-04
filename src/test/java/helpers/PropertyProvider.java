@@ -1,7 +1,6 @@
 package helpers;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -22,8 +21,14 @@ public class PropertyProvider {
             Properties appProps = new Properties();
             appProps.load(new FileInputStream(path));
             properties = appProps;
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+
+            for (String propertyName : properties.stringPropertyNames()) {
+                String systemPropertyValue = System.getProperty(propertyName);
+
+                if (systemPropertyValue != null) {
+                    properties.setProperty(propertyName, systemPropertyValue);
+                }
+            }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

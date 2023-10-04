@@ -2,12 +2,14 @@ package tests;
 
 import helpers.PropertyProvider;
 import io.qameta.allure.Step;
+import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import pageOblects.AddCustomerPage;
 import pageOblects.CustomersPage;
 import pageOblects.pageElements.ManagerMenuElements;
@@ -20,10 +22,20 @@ public class BaseTest {
     static ManagerMenuElements managerMenuElements;
     static CustomersPage customersPage;
 
+
+    private static ChromeOptions getChromeOptions() {
+        boolean headless = Boolean.parseBoolean(PropertyProvider.getInstance().getProperties("headless"));
+        ChromeOptions options = new ChromeOptions();
+        if (headless) {
+            options.addArguments("--headless");
+        }
+        return options;
+    }
+
     @BeforeAll
     @Step("Открыть браузер")
     static void setUp() {
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(getChromeOptions());
         Dimension dimension = new Dimension(1920, 1080);
         driver.manage().window().setSize(dimension);
 
