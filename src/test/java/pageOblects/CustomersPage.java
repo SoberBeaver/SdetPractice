@@ -39,7 +39,7 @@ public class CustomersPage {
         return firstCustomerTr.findElement(By.xpath("td[1]")).getText();
     }
 
-    @Step("Получить имя послднего пользователя")
+    @Step("Получить имя последнего пользователя")
     public String getLastCustomerName() {
         return lastCustomerTr.findElement(By.xpath("td[1]")).getText();
     }
