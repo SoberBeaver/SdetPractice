@@ -1,0 +1,31 @@
+[ {
+  "uid" : "fa107a34a1562516",
+  "name" : "searchCustomer()",
+  "time" : {
+    "start" : 1696444209494,
+    "stop" : 1696444212814,
+    "duration" : 3320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3ee71e1b9adb0ed",
+  "name" : "sortCustomersByFirstName()",
+  "time" : {
+    "start" : 1696444213041,
+    "stop" : 1696444214012,
+    "duration" : 971
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e55edd94f712dd0",
+  "name" : "createCustomer()",
+  "time" : {
+    "start" : 1696444209584,
+    "stop" : 1696444213365,
+    "duration" : 3781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

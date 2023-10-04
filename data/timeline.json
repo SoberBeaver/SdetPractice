@@ -1,0 +1,53 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "fv-az210-513",
+    "children" : [ {
+      "name" : "2142@fv-az210-513.main(1)",
+      "children" : [ {
+        "name" : "searchCustomer()",
+        "uid" : "fa107a34a1562516",
+        "parentUid" : "6c22732dfea939a9f5a421a0b0edde98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1696444209494,
+          "stop" : 1696444212814,
+          "duration" : 3320
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sortCustomersByFirstName()",
+        "uid" : "d3ee71e1b9adb0ed",
+        "parentUid" : "6c22732dfea939a9f5a421a0b0edde98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1696444213041,
+          "stop" : 1696444214012,
+          "duration" : 971
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c22732dfea939a9f5a421a0b0edde98"
+    }, {
+      "name" : "2144@fv-az210-513.main(1)",
+      "children" : [ {
+        "name" : "createCustomer()",
+        "uid" : "7e55edd94f712dd0",
+        "parentUid" : "925bedf90a11b13564411fca4511bd20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1696444209584,
+          "stop" : 1696444213365,
+          "duration" : 3781
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "925bedf90a11b13564411fca4511bd20"
+    } ],
+    "uid" : "f1aced590417e9e65fcc4f898e788da2"
+  } ]
+}

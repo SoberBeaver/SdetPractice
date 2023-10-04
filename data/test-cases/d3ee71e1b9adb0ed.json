@@ -1,0 +1,63 @@
+{
+  "uid" : "d3ee71e1b9adb0ed",
+  "name" : "sortCustomersByFirstName()",
+  "fullName" : "tests.CustomersTest.sortCustomersByFirstName",
+  "historyId" : "52ee2b3eafa5939c7f113edad9518f1a",
+  "time" : {
+    "start" : 1696444213041,
+    "stop" : 1696444214012,
+    "duration" : 971
+  },
+  "description" : "Сортировка клиентов по имени (First Name)",
+  "descriptionHtml" : "<p>Сортировка клиентов по имени (First Name)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "UI тесты XYZ Bank"
+  }, {
+    "name" : "feature",
+    "value" : "Сортировка клиентов по имени (First Name)"
+  }, {
+    "name" : "host",
+    "value" : "fv-az210-513"
+  }, {
+    "name" : "thread",
+    "value" : "2142@fv-az210-513.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.CustomersTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.CustomersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sortCustomersByFirstName"
+  }, {
+    "name" : "suite",
+    "value" : "tests.CustomersTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3ee71e1b9adb0ed.json",
+  "parameterValues" : [ ]
+}

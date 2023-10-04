@@ -1,0 +1,53 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "CustomersTest",
+      "children" : [ {
+        "name" : "searchCustomer",
+        "uid" : "fa107a34a1562516",
+        "parentUid" : "18c036dcc45571d1ee29f5edf118fd55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1696444209494,
+          "stop" : 1696444212814,
+          "duration" : 3320
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sortCustomersByFirstName",
+        "uid" : "d3ee71e1b9adb0ed",
+        "parentUid" : "18c036dcc45571d1ee29f5edf118fd55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1696444213041,
+          "stop" : 1696444214012,
+          "duration" : 971
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18c036dcc45571d1ee29f5edf118fd55"
+    }, {
+      "name" : "AddCustomerTest",
+      "children" : [ {
+        "name" : "createCustomer",
+        "uid" : "7e55edd94f712dd0",
+        "parentUid" : "36a9423c76545289e68f7d7e51e5d3a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1696444209584,
+          "stop" : 1696444213365,
+          "duration" : 3781
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36a9423c76545289e68f7d7e51e5d3a4"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ]
+}

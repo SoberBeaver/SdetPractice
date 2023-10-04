@@ -1,0 +1,49 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests.CustomersTest",
+    "children" : [ {
+      "name" : "searchCustomer()",
+      "uid" : "fa107a34a1562516",
+      "parentUid" : "dd19e600a2ea60b426ebf94cac7d7b1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696444209494,
+        "stop" : 1696444212814,
+        "duration" : 3320
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "sortCustomersByFirstName()",
+      "uid" : "d3ee71e1b9adb0ed",
+      "parentUid" : "dd19e600a2ea60b426ebf94cac7d7b1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696444213041,
+        "stop" : 1696444214012,
+        "duration" : 971
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dd19e600a2ea60b426ebf94cac7d7b1f"
+  }, {
+    "name" : "tests.AddCustomerTest",
+    "children" : [ {
+      "name" : "createCustomer()",
+      "uid" : "7e55edd94f712dd0",
+      "parentUid" : "8c8425b40a6249fd612b20a64da8d660",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696444209584,
+        "stop" : 1696444213365,
+        "duration" : 3781
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8c8425b40a6249fd612b20a64da8d660"
+  } ]
+}

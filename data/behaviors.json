@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "UI тесты XYZ Bank",
+    "children" : [ {
+      "name" : "Поиск клиента",
+      "children" : [ {
+        "name" : "searchCustomer()",
+        "uid" : "fa107a34a1562516",
+        "parentUid" : "3bb530c99ab44fe92ac20414745fb431",
+        "status" : "passed",
+        "time" : {
+          "start" : 1696444209494,
+          "stop" : 1696444212814,
+          "duration" : 3320
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3bb530c99ab44fe92ac20414745fb431"
+    }, {
+      "name" : "Создание клиента (Customer)",
+      "children" : [ {
+        "name" : "createCustomer()",
+        "uid" : "7e55edd94f712dd0",
+        "parentUid" : "a83dbd25df112d4f95af74a3db231759",
+        "status" : "passed",
+        "time" : {
+          "start" : 1696444209584,
+          "stop" : 1696444213365,
+          "duration" : 3781
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a83dbd25df112d4f95af74a3db231759"
+    }, {
+      "name" : "Сортировка клиентов по имени (First Name)",
+      "children" : [ {
+        "name" : "sortCustomersByFirstName()",
+        "uid" : "d3ee71e1b9adb0ed",
+        "parentUid" : "b41e7a7d3667dc05888a684a908a5fa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1696444213041,
+          "stop" : 1696444214012,
+          "duration" : 971
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b41e7a7d3667dc05888a684a908a5fa7"
+    } ],
+    "uid" : "fd04be3ad31676435d28660fc68f40c0"
+  } ]
+}
