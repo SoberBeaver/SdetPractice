@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Oct 10 19:00:53 GMT 2023","Tue Oct 10 19:00:54 GMT 2023","881","","tests.CustomersTest","","tests.CustomersTest","sortCustomersByFirstName","sortCustomersByFirstName()","Сортировка клиентов по имени (First Name)"
+"passed","Tue Oct 10 19:00:48 GMT 2023","Tue Oct 10 19:00:53 GMT 2023","4407","","tests.CustomersTest","","tests.CustomersTest","searchCustomer","searchCustomer()","Поиск клиента"
+"passed","Tue Oct 10 19:00:48 GMT 2023","Tue Oct 10 19:00:52 GMT 2023","4069","","tests.AddCustomerTest","","tests.AddCustomerTest","createCustomer","createCustomer()","Создание клиента (Customer)"
