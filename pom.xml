@@ -122,5 +122,10 @@
             <version>3.24.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-rest-assured</artifactId>
+            <version>${allure-junit5.version}</version>
+        </dependency>
     </dependencies>
 </project>

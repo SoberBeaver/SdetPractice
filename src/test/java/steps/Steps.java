@@ -2,28 +2,16 @@ package steps;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import helpers.PropertyProvider;
-import io.restassured.http.ContentType;
-import models.AdditionObj;
+import io.qameta.allure.Step;
 import models.EntitiesResponse;
 import models.EntityRequest;
 import models.EntityResponse;
-import org.junit.jupiter.api.parallel.ResourceLock;
 
-import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 import java.util.Arrays;
 
 import static io.restassured.RestAssured.given;
-import static org.junit.jupiter.api.parallel.ResourceAccessMode.READ;
-import static org.junit.jupiter.api.parallel.Resources.GLOBAL;
-import static org.junit.jupiter.api.parallel.Resources.SYSTEM_PROPERTIES;
 
 public class Steps {
-    final String URL = PropertyProvider.getInstance().getProperties("url");
     ObjectMapper objectMapper = new ObjectMapper();
 
     public String createEntityStep() {
@@ -36,10 +24,9 @@ public class Steps {
         return createEntityStep(body);
     }
 
+    @Step("Созать сущность")
     public String createEntityStep(EntityRequest body) {
-        String response = given()
-                .baseUri(URL)
-                .contentType(ContentType.JSON)
+        return given()
                 .body(body)
                 .when()
                 .post("/api/create")
@@ -47,12 +34,11 @@ public class Steps {
                 .statusCode(200)
                 .extract()
                 .asString();
-        return response;
     }
 
+    @Step("Получить сущность")
     public EntityResponse getEntityResponseStep(int id) throws JsonProcessingException {
         String response = given()
-                .baseUri(PropertyProvider.getInstance().getProperties("url"))
                 .pathParam("id", id)
                 .when()
                 .get("/api/get/{id}")
@@ -63,9 +49,9 @@ public class Steps {
         return objectMapper.readValue(response, EntityResponse.class);
     }
 
+    @Step("Удалить сущность")
     public int deleteEntityStep(int entityId) {
         return given()
-                .baseUri(URL)
                 .pathParam("id", entityId)
                 .when()
                 .delete("/api/delete/{id}")
@@ -74,11 +60,10 @@ public class Steps {
                 .statusCode();
     }
 
+    @Step("Обновить сущность")
     public int patchEntityStep(int entityId, EntityRequest body) {
         return given()
-                .baseUri(URL)
                 .pathParam("id", entityId)
-                .contentType(ContentType.JSON)
                 .body(body)
                 .when()
                 .patch("/api/patch/{id}")
@@ -87,9 +72,9 @@ public class Steps {
                 .statusCode();
     }
 
+    @Step("Получить список сущностей")
     public EntitiesResponse getListOfEntitiesStep(String queryParamName, String queryParamValue) throws JsonProcessingException {
         String response = given()
-                .baseUri(URL)
                 .queryParam(queryParamName, queryParamValue)
                 .when()
                 .get("/api/getAll")

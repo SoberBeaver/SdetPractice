@@ -95,7 +95,7 @@ public class ApiTest extends BaseTest {
     @Epic("Управление сущностями")
     @Feature("Получние списка сущностей")
     @Description("Проверка метода получения списка сущностей")
-    public void getAllTest() throws IOException {
+    public void getEntitiesListTest() throws IOException {
         String uniqueTitle = "Случайный заголовок " + UUID.randomUUID();
 
         EntityRequest firstBody = new EntityRequest();
