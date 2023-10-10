@@ -18,9 +18,6 @@ import java.time.Duration;
 
 public class BaseTest {
     static ChromeDriver driver;
-    static AddCustomerPage addCustomerPage;
-    static ManagerMenuElements managerMenuElements;
-    static CustomersPage customersPage;
 
 
     private static ChromeOptions getChromeOptions() {
@@ -36,15 +33,10 @@ public class BaseTest {
     @Step("Открыть браузер")
     static void setUp() {
         driver = new ChromeDriver(getChromeOptions());
-        Dimension dimension = new Dimension(1920, 1080);
-        driver.manage().window().setSize(dimension);
+        driver.manage().window().maximize();
 
         int timeout = Integer.parseInt(PropertyProvider.getInstance().getProperties("timeout"));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(timeout));
-
-        addCustomerPage = new AddCustomerPage(driver);
-        managerMenuElements = new ManagerMenuElements(driver);
-        customersPage = new CustomersPage(driver);
     }
 
     @AfterAll

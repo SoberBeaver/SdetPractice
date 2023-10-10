@@ -9,8 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class CustomersPage {
-    WebDriver driver;
+public class CustomersPage extends BasePage {
 
     public CustomersPage(WebDriver driver) {
         this.driver = driver;
@@ -19,14 +18,14 @@ public class CustomersPage {
 
     @FindBy(xpath = "//a[contains(text(), 'First Name')]")
     private WebElement sortByFirstNameBtn;
-    @FindBy(xpath = "//tbody/tr[1]")
-    private WebElement firstCustomerTr;
-    @FindBy(xpath = "//tbody/tr[last()]")
-    private WebElement lastCustomerTr;
     @FindBy(xpath = "//input[@ng-model='searchCustomer']")
     private WebElement searchCustomerBtn;
     @FindBy(xpath = "//tbody/tr")
     private List<WebElement> tableRows;
+    @FindBy(xpath = "//tbody/tr/td[1]")
+    private List<WebElement> tableFirstNames;
+    @FindBy(xpath = "//div[contains(@class, 'ng-scope')]//table")
+    private WebElement table;
 
     @Step("Отсортировать таблицу по имени")
     public CustomersPage sortByFirstName() {
@@ -34,14 +33,12 @@ public class CustomersPage {
         return this;
     }
 
-    @Step("Получить имя первого пользователя")
-    public String getFirstCustomerName() {
-        return firstCustomerTr.findElement(By.xpath("td[1]")).getText();
-    }
+    @Step("Получить имена пользователей")
+    public List<String> getCustomerNames() {
 
-    @Step("Получить имя последнего пользователя")
-    public String getLastCustomerName() {
-        return lastCustomerTr.findElement(By.xpath("td[1]")).getText();
+        List<String> names = tableFirstNames.stream()
+                .map(WebElement::getText).toList();
+        return names;
     }
 
     @Step("Ввести в поиск строку: {searchString}")
@@ -53,5 +50,13 @@ public class CustomersPage {
     @Step("Получить количество пользователей в таблице")
     public int getCustomersCount() {
         return tableRows.size();
+    }
+
+    @Step("Проверить, что пользователь есть в таблице")
+    public WebElement checkCustomerListedInTable(String firstName, String lastName, String code) {
+        String s = String.format(
+                "//tr[contains(td[1], '%s') and contains(td[2], '%s') and contains(td[3], '%s')]",
+                firstName, lastName, code);
+        return table.findElement(By.xpath(s));
     }
 }

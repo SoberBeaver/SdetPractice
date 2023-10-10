@@ -110,6 +110,13 @@
             <artifactId>allure-junit5</artifactId>
             <version>${allure-junit5.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.24.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>

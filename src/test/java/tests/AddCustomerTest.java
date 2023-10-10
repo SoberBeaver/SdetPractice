@@ -5,9 +5,15 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import pageOblects.AddCustomerPage;
+import pageOblects.CustomersPage;
+import pageOblects.pageElements.ManagerMenuElements;
 
-@Epic("UI тесты XYZ Bank")
+@Epic("Управление клинтами XYZ Bank")
 public class AddCustomerTest extends BaseTest {
+    ManagerMenuElements managerMenuElements = new ManagerMenuElements(driver);
+    AddCustomerPage addCustomerPage = new AddCustomerPage(driver);
+    CustomersPage customersPage = new CustomersPage(driver);
 
     @Test
     @Feature("Создание клиента (Customer)")
@@ -15,9 +21,15 @@ public class AddCustomerTest extends BaseTest {
     void createCustomer() {
         managerMenuElements.openAddCustomerPage();
 
-        addCustomerPage.setFirstName("Tom").setLastName("Riddle").setPostCode("E66666").clickAddCustomer();
+        String firstName = "Tom";
+        String lastName = "Riddle";
+        String code = "E66666";
+        addCustomerPage.setFirstName(firstName).setLastName(lastName).setPostCode(code).clickAddCustomer();
         String alertText = addCustomerPage.getAlertText();
         addCustomerPage.closeAlert();
         Assertions.assertEquals("Customer added successfully with customer id :6", alertText);
+
+        managerMenuElements.openCustomersPage();
+        customersPage.checkCustomerListedInTable(firstName, lastName, code);
     }
 }

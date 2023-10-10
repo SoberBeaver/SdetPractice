@@ -6,9 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AddCustomerPage {
-    WebDriver driver;
-
+public class AddCustomerPage extends BasePage {
     public AddCustomerPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(this.driver, this);
@@ -45,15 +43,5 @@ public class AddCustomerPage {
     public AddCustomerPage clickAddCustomer() {
         addCustomerBtn.click();
         return this;
-    }
-
-    @Step("Получить текст алерта")
-    public String getAlertText() {
-        return driver.switchTo().alert().getText();
-    }
-
-    @Step("Закрыть алерт")
-    public void closeAlert() {
-        driver.switchTo().alert().accept();
     }
 }
