@@ -1,0 +1,43 @@
+<div>PATCH to https://61af-46-147-155-85.ngrok-free.app/api/patch/333</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;addition&quot;: {
+        &quot;additional_info&quot;: &quot;Обновленные сведения&quot;,
+        &quot;additional_number&quot;: 999
+    },
+    &quot;important_numbers&quot;: [
+        0,
+        2
+    ],
+    &quot;title&quot;: &quot;Заголовок обновленной сущности&quot;,
+    &quot;verified&quot;: false
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X PATCH &#39;https://61af-46-147-155-85.ngrok-free.app/api/patch/333&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;addition&quot;: {
+        &quot;additional_info&quot;: &quot;Обновленные сведения&quot;,
+        &quot;additional_number&quot;: 999
+    },
+    &quot;important_numbers&quot;: [
+        0,
+        2
+    ],
+    &quot;title&quot;: &quot;Заголовок обновленной сущности&quot;,
+    &quot;verified&quot;: false
+}&#39;
+</div>
