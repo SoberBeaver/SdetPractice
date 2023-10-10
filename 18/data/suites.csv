@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Oct 10 16:57:37 GMT 2023","Tue Oct 10 16:57:38 GMT 2023","924","","tests.api.ApiTest","","tests.api.ApiTest","deleteEntityTest","deleteEntityTest()","Проверка метода удаления сущности"
+"passed","Tue Oct 10 16:57:29 GMT 2023","Tue Oct 10 16:57:34 GMT 2023","5350","","tests.api.ApiTest","","tests.api.ApiTest","patchEntityTest","patchEntityTest()","Проверка метода обновления сущности"
+"passed","Tue Oct 10 16:57:34 GMT 2023","Tue Oct 10 16:57:35 GMT 2023","945","","tests.api.ApiTest","","tests.api.ApiTest","getEntityTest","getEntityTest()","Проверка метода получения сущности"
+"passed","Tue Oct 10 16:57:37 GMT 2023","Tue Oct 10 16:57:37 GMT 2023","482","","tests.api.ApiTest","","tests.api.ApiTest","createEntityTest","createEntityTest()","Проверка метода создания сущности"
+"passed","Tue Oct 10 16:57:35 GMT 2023","Tue Oct 10 16:57:37 GMT 2023","1427","","tests.api.ApiTest","","tests.api.ApiTest","getAllTest","getAllTest()","Проверка метода получения списка сущностей"
